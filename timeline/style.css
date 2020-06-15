@@ -40,7 +40,7 @@ div.header {
   text-align: center;
   background: #57C2E5;
   color: ghostwhite;
-  padding: 2.3rem 1rem 2.3rem 1rem;
+  padding: 1rem 1rem 1rem 1rem;
   position: relative;
 }
 div.header:after {
