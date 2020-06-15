@@ -71,9 +71,9 @@ body {
   top: 0.3rem;
   width: 1rem;
   height: 1rem;
-  border: 2px solid #999999;
+  border: 2px solid #fe5c88;
   border-radius: 50%;
-  background-color: #e6e6e6;
+  background-color: white;
 }
 .timeline .item:hover:before {
   background-color: #999999;
