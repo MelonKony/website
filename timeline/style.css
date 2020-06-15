@@ -14,7 +14,7 @@ body {
   font-family: 'Lato', sans-serif;
   line-height: 160%;
   font-size: 100%;
-  color: #fe5c88;
+  color: #4d4d4d;
 }
 
 .group:after {
@@ -26,7 +26,7 @@ body {
 .fullwidth {
   width: 100%;
   padding-top: 4rem;
-  background-color: #e6e6e6;
+  background-color: #000000;
 }
 
 .timeline {
@@ -37,8 +37,8 @@ body {
   padding-right: 2rem;
   padding-bottom: 4rem;
   padding-left: 2rem;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#999999), to(#999999));
-  background-image: linear-gradient(#999999, #999999);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fe5c88), to(#fe5c88));
+  background-image: linear-gradient(#fe5c88, #fe5c88);
   background-size: 2px 100%;
   background-position: 50% 1rem;
   background-repeat: no-repeat;
@@ -76,7 +76,7 @@ body {
   background-color: white;
 }
 .timeline .item:hover:before {
-  background-color: #999999;
+  background-color: #fe5c88;
 }
 
 .timeline .item:first-child {
