@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.hero__background {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: auto;
+  font-size: 1.75vw;
+  background: #310E08;
+}
+
+.hex {
+  position: absolute;
+  height: 24.8px;
+  width: 28px;
+  transition: all 0.3s;
+  top: 50%;
+  left: 50%;
+  margin-left: -16px;
+  margin-top: -16px;
+}
