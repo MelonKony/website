@@ -17,7 +17,7 @@ body {
   font-family: 'Fira Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #79838c;
+  color: #5b636b;
 }
 
 a {
@@ -38,7 +38,7 @@ div.container {
 div.header {
   height: auto;
   text-align: center;
-  color: #79838c;
+  color: #5b636b;
   padding: 1rem 1rem 1rem 1rem;
   position: relative;
 }
@@ -63,17 +63,10 @@ div.header:after {
 div.header h1 {
   font-family: Helvetica
   margin-top: .8rem;
-  margin-bottom: .5rem;
   font-weight: 1000;
   font-size: 1.6em;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
-}
-@media (min-width: 62em) {
-  div.header h1 {
-    font-size: 1.9em;
-    letter-spacing: 0.2rem;
-  }
 }
 div.header h2 {
   font-size: 1.1em;

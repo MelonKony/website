@@ -94,3 +94,7 @@ See: https://css-tricks.com/aspect-ratio-boxes/
 a:link {
   color: white;
 }
+
+.inline-text {
+  float: left;
+}
