@@ -38,8 +38,7 @@ div.container {
 div.header {
   height: auto;
   text-align: center;
-  background: #57C2E5;
-  color: ghostwhite;
+  color: #79838c;
   padding: 1rem 1rem 1rem 1rem;
   position: relative;
 }
