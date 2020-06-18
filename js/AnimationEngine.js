@@ -1,7 +1,14 @@
 /**
- * I suppose I have to add versions on this now...
+ * This is version Alpha 0.4
+ * This code was created by Ben_R_R (Ben_R_R#2574) 
  * 
- * This is version Alpha 0.2  
+ * Alpha 0.4 Changes: Changed $(document).ready() to $(window).load()
+ * See here for an explanation: https://web.archive.org/web/20191115222535/http://net-informations.com/jq/iq/onload.htm
+ * Made missing images a bit more robust. 
+ * Added an checking to make sure that the target canvas actually exists. This check is done when you call Register_Animation()
+ * 
+ * 
+ * Alpha 0.3 Changes: Exposed a function that you can call to trigger a manual update. 
  * 
  */
 // Stuff we want added to the Global Namespace
@@ -11,6 +18,10 @@ var Animation = null;
 var Animated_Object = null;
 var KeyFrame = null;
 var Register_Animation = null;
+
+var Update_Animation = null;
+
+var _debug_last_error = null;
 
 (function() { // WOO! Exploiting Javascript Lexical Closures to keep code from Polluting the Global Namespace! 
 // Remember kids: Other languages' hacked garbage is Javascript best practice!
@@ -125,7 +136,12 @@ var Register_Animation = null;
         };
 
         this.sub_render = function(ctx,x,y){
-            ctx.drawImage(this.image, x, y)
+            try {
+                ctx.drawImage(this.image, x, y);
+            } catch (error) {
+                _debug_last_error = error; // So if for some reason an image breaks, this will be called every frame, so rather than dump to console, save it in a variable to be accessed later
+            }
+            
         };
 
         // make a fake context and run in through the actualy render function,
@@ -152,13 +168,29 @@ var Register_Animation = null;
     // List of all canvases that we are rendering to. When you create a new animated object this list is updated
     var canvas_list=[]
 
+    /**
+     * Call this function to register an animation.
+     * Note: The canvas (animation.targetID) must exist when this function is called.
+     * 
+     */
     Register_Animation = function(animation){
-        // make sure things like the canvas fix function know about us
-        canvas_list.push(animation.targetID); 
-        animations.push(animation);
+        
+        // Make sure that their is actually a target to render too. 
+        if($("#" + animation.targetID).length > 0){ 
+
+            canvas_list.push(animation.targetID); // make sure things like the canvas fix function know about us
+            animations.push(animation);
+        } else {
+            // throw an error to help catch the root issue
+            throw "Canvas Does not Exist: #" + animation.targetID;
+        }
     }
 
-    $(document).ready(function(){        
+    Update_Animation = function(){
+        window_has_moved = true;
+    }
+
+    $(window).load(function(){        
 
         $( window ).scroll(function() { 
             // Never animate on scroll. this function will be called a hundred 
