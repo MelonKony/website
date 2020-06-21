@@ -1139,7 +1139,7 @@ body.header_logo_rounded .header_square_logo img {
 }
 
 .header_nav {
-  padding-top: 8px;
+  padding-top: 0px;
   padding-bottom: 10px;
   background-color: #F5F8F7;
   position: relative;
