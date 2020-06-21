@@ -1,0 +1,271 @@
+# Copyright (C) 2015 the WordPress team
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Alia Core\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/twentysixteen\n"
+"POT-Creation-Date: 2018-09-04 05:59+0200\n"
+"PO-Revision-Date: 2018-09-04 06:02+0200\n"
+"Last-Translator: Giangiacomo Fanizzi <uomomacchina@gmail.com>\n"
+"Language-Team: UomoMacchina <uomomacchina@gmail.com>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-KeywordsList: esc_attr_e;esc_attr__;__;_e;esc_html__;esc_html_e;"
+"_n:1,2;_x:1,2c;_ex:1,2c;_nx;_nx:1,2;_n_noop:1,2;esc_attr_x;esc_html_x\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: inc/extensions\n"
+
+#: alia-core.php:74
+msgctxt "Stories general name"
+msgid "Stories"
+msgstr "Notizie"
+
+#: alia-core.php:75
+msgctxt "Stories singular name"
+msgid "Story"
+msgstr "Notizia"
+
+#: alia-core.php:76
+msgctxt "Stories admin menu"
+msgid "Stories"
+msgstr "Notizie"
+
+#: alia-core.php:77
+msgctxt "Add new story on admin bar"
+msgid "Story"
+msgstr "Notizia"
+
+#: alia-core.php:78
+msgctxt "Add new story"
+msgid "Add New"
+msgstr "Aggiungi Nuova"
+
+#: alia-core.php:79
+msgid "Add New Story"
+msgstr "Aggiungi Nuova Notizia"
+
+#: alia-core.php:80
+msgid "New Story"
+msgstr "Nuova Notizia"
+
+#: alia-core.php:81
+msgid "Edit Story"
+msgstr "Modifica Notizia"
+
+#: alia-core.php:82
+msgid "View Story"
+msgstr "Visualizza Notizia"
+
+#: alia-core.php:83
+msgid "All Stories"
+msgstr "Tutte le Notizie"
+
+#: alia-core.php:84
+msgid "Search Stories"
+msgstr "Cerca Notizie"
+
+#: alia-core.php:85
+msgid "Parent Stories:"
+msgstr "Notizie Madri:"
+
+#: alia-core.php:86
+msgid "No stories found."
+msgstr "Nessuna notizia trovata."
+
+#: alia-core.php:87
+msgid "No stories found in Trash."
+msgstr "Nessuna notizia trovata nel Cestino."
+
+#: alia-core.php:109 alia-core.php:112
+msgid "Story updated."
+msgstr "Notizia aggiornata."
+
+#: alia-core.php:110
+msgid "Custom field updated."
+msgstr "Campo personalizzato aggiornato."
+
+#: alia-core.php:111
+msgid "Custom field deleted."
+msgstr "Campo personalizzato eliminato."
+
+#: alia-core.php:114
+#, php-format
+msgid "Story restored to revision from %s"
+msgstr "Notizia ripristinata alla revisione da %s"
+
+#: alia-core.php:115
+msgid "Story published."
+msgstr "Notizia pubblicata."
+
+#: alia-core.php:116
+msgid "Story saved."
+msgstr "Notizia salvata."
+
+#: alia-core.php:117
+msgid "Story submitted."
+msgstr "Notizia trasmessa."
+
+#: alia-core.php:119
+#, php-format
+msgid "Story scheduled for: <strong>%1$s</strong>."
+msgstr "Notizia programmata per: <strong>%1$s</strong>."
+
+#: alia-core.php:121
+msgid "M j, Y @ G:i"
+msgstr "j F Y @ G:i"
+
+#: alia-core.php:123
+msgid "Story draft updated."
+msgstr "Bozza della notizia aggiornata"
+
+#: alia-core.php:129
+msgid "View story"
+msgstr "Visualizza notizia"
+
+#: alia-core.php:135
+msgid "Preview story"
+msgstr "Anteprima notizia"
+
+#: alia-core.php:173 alia-core.php:189 alia-core.php:205 alia-core.php:223
+#: alia-core.php:239 alia-core.php:255 alia-core.php:271 alia-core.php:287
+#: alia-core.php:303 alia-core.php:319 alia-core.php:335
+msgctxt "Before share icons"
+msgid "Share"
+msgstr "‫Condividi"
+
+#: alia-core.php:552
+msgid "Website"
+msgstr "Sito Web"
+
+#: inc/widgets/fbpage.php:13 inc/widgets/fbpage.php:51
+msgid "Facebook Page"
+msgstr "Pagina Facebook"
+
+#: inc/widgets/fbpage.php:56 inc/widgets/gplus.php:58
+#: inc/widgets/postlist.php:61 inc/widgets/social.php:78
+#: inc/widgets/stories_circles.php:47 inc/widgets/tweets.php:61
+msgid "Title"
+msgstr "Titolo"
+
+#: inc/widgets/fbpage.php:60
+msgid "Facebook Page URL"
+msgstr "URL Pagina Facebook"
+
+#: inc/widgets/fbpage.php:64
+msgid "Hide Page Posts"
+msgstr "Nascondi i Post della Pagina"
+
+#: inc/widgets/fbpage.php:67 inc/widgets/fbpage.php:76
+#: inc/widgets/fbpage.php:85 inc/widgets/fbpage.php:96
+msgid "No"
+msgstr "No"
+
+#: inc/widgets/fbpage.php:69 inc/widgets/fbpage.php:78
+#: inc/widgets/fbpage.php:87 inc/widgets/fbpage.php:94
+msgid "Yes"
+msgstr "Sì"
+
+#: inc/widgets/fbpage.php:73
+msgid "Use Small Header"
+msgstr "Utilizzare Intestazione Piccola"
+
+#: inc/widgets/fbpage.php:82
+msgid "Hide Cover Photo"
+msgstr "Nascondi Immagine di Copertina"
+
+#: inc/widgets/fbpage.php:91
+msgid "Show Friend's Faces"
+msgstr "Mostra Volti degli Amici"
+
+#: inc/widgets/gplus.php:14 inc/widgets/gplus.php:53
+msgid "Google+"
+msgstr "Google+"
+
+#: inc/widgets/gplus.php:62
+msgid "Google+ URL"
+msgstr "URL Google+"
+
+#: inc/widgets/gplus.php:66
+msgid "Profile Type"
+msgstr "Tipo di Profilo"
+
+#: inc/widgets/gplus.php:69
+msgid "Person"
+msgstr "Personale"
+
+#: inc/widgets/gplus.php:71
+msgid "Page"
+msgstr "Pagina"
+
+#: inc/widgets/gplus.php:73
+msgid "Community"
+msgstr "Community"
+
+#: inc/widgets/postlist.php:13 inc/widgets/postlist.php:56
+msgid "Post List"
+msgstr "Elenco dei Post"
+
+#: inc/widgets/postlist.php:65 inc/widgets/tweets.php:69
+msgid "Number Of Posts"
+msgstr "Numero di Post"
+
+#: inc/widgets/postlist.php:69
+msgid "Post Order"
+msgstr "Ordinamento dei Post"
+
+#: inc/widgets/postlist.php:72
+msgid "Date"
+msgstr "Data"
+
+#: inc/widgets/postlist.php:74
+msgid "Comment Count"
+msgstr "Conteggio Commenti"
+
+#: inc/widgets/postlist.php:77
+msgid "Views Count"
+msgstr "Conteggio Visite"
+
+#: inc/widgets/postlist.php:80
+msgid "Random"
+msgstr "Casuale"
+
+#: inc/widgets/postlist.php:84
+msgid "Category"
+msgstr "Categoria"
+
+#: inc/widgets/postlist.php:87
+msgid "All Categories"
+msgstr "Tutte le Categorie"
+
+#: inc/widgets/postlist.php:95
+msgid "Tags"
+msgstr "Tags"
+
+#: inc/widgets/social.php:13 inc/widgets/social.php:70
+msgid "Social Profiles"
+msgstr "Profili Social"
+
+#: inc/widgets/stories_circles.php:13
+msgid "Stories Circles"
+msgstr "Circolari delle Notizie"
+
+#: inc/widgets/stories_circles.php:14
+msgid "Shows 5 circles of the latest stories"
+msgstr "Mostra 5 cerchi delle ultime notizie"
+
+#: inc/widgets/stories_circles.php:51
+msgid "Stories Page URL"
+msgstr "URL della Pagina delle Notizie"
+
+#: inc/widgets/tweets.php:14 inc/widgets/tweets.php:56
+msgid "Tweets"
+msgstr "Tweets"
+
+#: inc/widgets/tweets.php:65
+msgid "Username"
+msgstr "Username"
