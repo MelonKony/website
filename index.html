@@ -6,31 +6,32 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="css/default.css">
       <style>
-      .pic {
+      .home {
         margin: 22% auto;
+        margin-top: -10%;
         text-align: center;
         alignment: center;
         width: 100%;
         max-width: 500px;
         float: center;
       }
+      .home-content {
+        position: absolute;
+        top: 110%;
+        right: 37%;
+        padding-left: 5px;
+        padding-right: 5px;
+        text-align: center;
+      }
     </style>
 
-    <link rel='stylesheet' id='alia-style-css'  href='themes/alia/style_ver=1.43.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='alia-fonts-css'  href='themes/alia/assets/fonts/default-google-fonts.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='alia-customstyle-css'  href='themes/alia/assets/css/customstyle_ver=5.4.2.css' type='text/css' media='all' />
-    <style id='alia-customstyle-inline-css' type='text/css'>body { font-family: 'Roboto', sans-serif; }h1, h2, h3, h4, h5, h6, .title, .text_logo, .comment-reply-title, .header_square_logo a.square_letter_logo { text-align: 'center'; font-family: 'Poppins', sans-serif; }a { color: #ff374a; }
+    <link rel='stylesheet' id='style-css'  href='theme/style.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='fonts-css'  href='theme/assets/fonts/default-google-fonts.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='custom-css'  href='theme/assets/css/custom.css' type='text/css' media='all' />
+    <style id='custom-inline-css' type='text/css'>body { font-family: 'Roboto', sans-serif; }h1, h2, h3, h4, h5, h6, .title, .text_logo, .comment-reply-title, .header_square_logo a.square_letter_logo {font-family: 'Poppins', sans-serif;}a { color: #ff374a; }
     </style>
     <script type='text/javascript' src='https://c0.wp.com/c/5.4.2/wp-includes/js/jquery/jquery.js'></script>
     <script type='text/javascript' src='https://c0.wp.com/c/5.4.2/wp-includes/js/jquery/jquery-migrate.min.js'></script>
-
-
-    <!-- End Jetpack Open Graph Tags -->
-    <link rel="icon" href="images/flower.png" sizes="32x32" />
-    <link rel="icon" href="images/flower.png" sizes="192x192" />
-    <link rel="apple-touch-icon" href="images/flower.png" />
-    <meta name="msapplication-TileImage" content="images/flower.png" />
-       <style type="text/css" title="dynamic-css" class="options-output">.wtr-time-wrap{line-height:14px;color:#CCCCCC;font-size:14px;opacity: 1;visibility: visible;-webkit-transition: opacity 0.24s ease-in-out;-moz-transition: opacity 0.24s ease-in-out;transition: opacity 0.24s ease-in-out;}.wf-loading .wtr-time-wrap,{opacity: 0;}.ie.wf-loading .wtr-time-wrap,{visibility: hidden;}</style>
 </head>
 
 <body>
@@ -104,12 +105,6 @@
     </div><!-- end .header_nav_wrapper -->
   </header>
 
-
-
-
-  <!-- alia theme -->
-
-
   <div id="page" class="site">
     <div class="sticky_header_nav_wrapper header_nav_wrapper">
       <div class="header_nav">
@@ -166,12 +161,28 @@
       <main id="content" class="site-content">
         <section id="primary" class="container main_content_area blog_index_area gridsidebar_main_content_container">
 
-          <h1> Hello world! </h1>
-
           <figure class="post_banner">
-            <div class="pic">
-              <!-- Block parent element -->
+            <div class ="home">
               <img src="images/princess.jpg" width="50%" height="50%">
+          </div>
+            <!-- WIP
+            <div class="home-content">
+              <h1> <i>Welcome to Studio MillMint</i> </h1>
+              <h3> スタジオミルミントへようこ </h3>
+              <p> Where do you want to begin? </p>
+              <div class=row>
+                <div class="half-column">
+                    <h4> ZELDA WIKI </h4>
+                    <h4> COMIC </h4>
+                    <h4> TIMELINE </h4>
+                </div>
+                <div class="half-column">
+                    <h4> ARCHIVES </h4>
+                    <h4> MILLMINT BLOG </h4>
+                    <h4> ABOUT MILLMINT </h4>
+                </div>
+              </div>
+            -->
             </div>
           </figure>
         </section><!-- #primary -->
@@ -252,10 +263,10 @@
   <!-- pagination -->
 
    <script type='text/javascript'
-     src='themes/alia/assets/js/global.js?ver=1.43'></script>
+     src='theme/assets/js/global.js'></script>
 
    <script type='text/javascript'
-     src='themes/plugins/alia-core/inc/alia-core.js?ver=1.17'></script>
+     src='theme/plugins/core/inc/core.js'></script>
 
   <!-- falling engine -->
 
