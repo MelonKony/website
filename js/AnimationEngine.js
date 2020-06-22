@@ -1,6 +1,15 @@
 /**
- * This is version Alpha 0.4
+ * This is version Alpha 0.5
  * This code was created by Ben_R_R (Ben_R_R#2574) 
+ * 
+ * Alpha 0.5 Changes: The animation engine now checks to see if the imagesloaded jquery plugin is installed, if it is, it uses that to 
+ * try and trigger the first frame as early as possible. https://imagesloaded.desandro.com/
+ * 
+ * In order to make this work, I had to move that code into Register_Animation(), which is fine, because until we call Register_Animation we don't even 
+ * know if there is going to be an animationLoop() to render.
+ * 
+ * BUG: There is currently a bug where if you have two animations on a page, you will end up calling animationLoop() twice per frame. 
+ * FIX: Add a flag to recognize when we have called animationLoop() from Register_Animation(), and don't call it again. 
  * 
  * Alpha 0.4 Changes: Changed $(document).ready() to $(window).load()
  * See here for an explanation: https://web.archive.org/web/20191115222535/http://net-informations.com/jq/iq/onload.htm
@@ -8,7 +17,7 @@
  * Added an checking to make sure that the target canvas actually exists. This check is done when you call Register_Animation()
  * 
  * 
- * Alpha 0.3 Changes: Exposed a function that you can call to trigger a manual update. 
+ * Alpha 0.3 Changes: Exposed a function that you can call to trigger a manual animationLoop() . 
  * 
  */
 // Stuff we want added to the Global Namespace
@@ -184,14 +193,30 @@ var _debug_last_error = null;
             // throw an error to help catch the root issue
             throw "Canvas Does not Exist: #" + animation.targetID;
         }
+
+        //
+        if ($().imagesLoaded){ // if the imagesloaded plugin is available
+            console.log("Using imagesloaded plugin");
+            var img_load_promises = [];
+            for(i=0; i<animation.animated_objects.length; i ++){
+                img_load_promises.push($(animation.animated_objects[i].image).imagesLoaded());
+            }
+            // join promises so that animationLoop() will be called when they are all resolved.
+            $.when.apply(null, img_load_promises).done(animationLoop);
+            
+        } else {
+            console.log("Using $(window).load()");
+            $(window).load(animationLoop);
+        }
     }
 
     Update_Animation = function(){
         window_has_moved = true;
     }
 
-    $(window).load(function(){        
 
+    // This setup we can do when the DOM is ready, no need to wait for the images to load
+    $(document).ready(function(){
         $( window ).scroll(function() { 
             // Never animate on scroll. this function will be called a hundred 
             // times or more on a scroll event, way faster than our render engine
@@ -202,10 +227,8 @@ var _debug_last_error = null;
         $( window ).resize(function() { // Note this also catches browser zoom level changes
             callCanvasFix = true; 
         });
-
-        // call the animation frame to get the loop started:
-        animationLoop();
     });
+
 
     function fixCanvasLayout(){
         // This is where we handle things like browser zoom levels and the like.
