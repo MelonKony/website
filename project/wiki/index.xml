@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introduction on ZELDA WIKI</title>
+    <link>https://millmint.studio/project/wiki/</link>
+    <description>Recent content in Introduction on ZELDA WIKI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://millmint.studio/project/wiki/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ayn Rumouisen</title>
+      <link>https://millmint.studio/project/wiki/docs/characters/ayn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://millmint.studio/project/wiki/docs/characters/ayn/</guid>
+      <description>Key Article
+This page is about a main character in the story of Vekllei.  Under Construction
+This page is still under construction, and may be incomplete.  </description>
+    </item>
+    
+    <item>
+      <title>Baron Desmoisnes</title>
+      <link>https://millmint.studio/project/wiki/docs/characters/baron/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://millmint.studio/project/wiki/docs/characters/baron/</guid>
+      <description>Key Article
+This page is about a main character in the story of Vekllei.  Under Construction
+This page is still under construction, and may be incomplete.  </description>
+    </item>
+    
+    <item>
+      <title>Cobian Queismesnah</title>
+      <link>https://millmint.studio/project/wiki/docs/characters/cobian/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://millmint.studio/project/wiki/docs/characters/cobian/</guid>
+      <description>Key Article
+This page is about a main character in the story of Vekllei.  Under Construction
+This page is still under construction, and may be incomplete.  Cobian Queismesnah #  Cobian lo Ro de Viviya de Queismesnah</description>
+    </item>
+    
+    <item>
+      <title>Gregori-Heitzfeld Syndrome</title>
+      <link>https://millmint.studio/project/wiki/docs/author/gregori/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://millmint.studio/project/wiki/docs/author/gregori/</guid>
+      <description>Gregori-Heitzfeld Syndrome #  </description>
+    </item>
+    
+    <item>
+      <title>Mette Sumoisnesn</title>
+      <link>https://millmint.studio/project/wiki/docs/characters/mette/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://millmint.studio/project/wiki/docs/characters/mette/</guid>
+      <description>Under Construction
+This page is still under construction, and may be incomplete.  </description>
+    </item>
+    
+    <item>
+      <title>Moise Hasapis</title>
+      <link>https://millmint.studio/project/wiki/docs/characters/moise/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://millmint.studio/project/wiki/docs/characters/moise/</guid>
+      <description>Key Article
+This page is about a main character in the story of Vekllei.  Under Construction
+This page is still under construction, and may be incomplete.  Moise ra Hasapis #  </description>
+    </item>
+    
+    <item>
+      <title>Tzipora Desmoisnes</title>
+      <link>https://millmint.studio/project/wiki/docs/characters/tzipora/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://millmint.studio/project/wiki/docs/characters/tzipora/</guid>
+      <description>Key Article
+This page is about a main character in the story of Vekllei.  Under Construction
+This page is still under construction, and may be incomplete.  Tzipora Desmoisnes #  Introduction #  Tzipora Desmoisnes (also Zelda lo Ula Desmoisnes, born May 5 2047) is a Vekllei Gregori Baby and librarian, and is the character utopia of the [Petticoat Project]. Born to artist and political activist Mette Sumoisnesn and an unknown father, the family moved to Colombia when Tzipora was six months old.</description>
+    </item>
+    
+    <item>
+      <title>Creating a New Theme</title>
+      <link>https://millmint.studio/project/wiki/posts/creating-a-new-theme/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://millmint.studio/project/wiki/posts/creating-a-new-theme/</guid>
+      <description>Introduction #  This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
+We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+    </item>
+    
+    <item>
+      <title>Migrate to Hugo from Jekyll</title>
+      <link>https://millmint.studio/project/wiki/posts/migrate-from-jekyll/</link>
+      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://millmint.studio/project/wiki/posts/migrate-from-jekyll/</guid>
+      <description>Move static content to static #  Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
+▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+    </item>
+    
+    <item>
+      <title>(Hu)go Template Primer</title>
+      <link>https://millmint.studio/project/wiki/posts/goisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://millmint.studio/project/wiki/posts/goisforlovers/</guid>
+      <description>Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
+This document is a brief primer on using Go templates.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Hugo</title>
+      <link>https://millmint.studio/project/wiki/posts/hugoisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://millmint.studio/project/wiki/posts/hugoisforlovers/</guid>
+      <description>Step 1. Install Hugo #  Go to Hugo releases and download the appropriate version for your OS and architecture.
+Save it somewhere specific as we will be using it in the next step.
+More complete instructions are available at Install Hugo
+Step 2. Build the Docs #  Hugo has its own example site which happens to also be the documentation site you are reading right now.
+Follow the following steps:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://millmint.studio/project/wiki/docs/author/petticoat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://millmint.studio/project/wiki/docs/author/petticoat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://millmint.studio/project/wiki/docs/author/utopia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://millmint.studio/project/wiki/docs/author/utopia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://millmint.studio/project/wiki/docs/landscape/economy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://millmint.studio/project/wiki/docs/landscape/economy/</guid>
+      <description>Economy #  1.1 Participatory Economics in Utopia #  Vekllei does not use money. To some extent, that statement summarises the core of the idea. Just as the abstract and mercantile economies of the United States are far removed from these shores, so too are the utopian ideas of Morris and More with all such romanticism and glory of immercantile society. The whole Vekllei system is perhaps better summed up as a thoroughly uncommodified society as opposed to a simply ‘cashless’ one; for the real material consequence of the absence of money is not in its transitory symbolism as a moneyless utopia but in how Vekllei people have come to approach domestic postindustrial life.</description>
+    </item>
+    
+  </channel>
+</rss>

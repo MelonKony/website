@@ -1,0 +1,1 @@
+if(navigator.serviceWorker){navigator.serviceWorker.register("/project/wiki/sw.js",{scope:"/project/wiki/"});}
