@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>2020 Studio MillMint</copyright>
-    <lastBuildDate>Tue, 07 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://millmint.studio/newsroom/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>author</title>
       <link>https://millmint.studio/newsroom/blog/tags/author/</link>
-      <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://millmint.studio/newsroom/blog/tags/author/</guid>
       <description></description>
@@ -24,7 +24,7 @@
     <item>
       <title>tzipora</title>
       <link>https://millmint.studio/newsroom/blog/tags/tzipora/</link>
-      <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://millmint.studio/newsroom/blog/tags/tzipora/</guid>
       <description></description>
@@ -33,7 +33,7 @@
     <item>
       <title>landscape</title>
       <link>https://millmint.studio/newsroom/blog/tags/landscape/</link>
-      <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://millmint.studio/newsroom/blog/tags/landscape/</guid>
       <description></description>
@@ -42,9 +42,18 @@
     <item>
       <title>map</title>
       <link>https://millmint.studio/newsroom/blog/tags/map/</link>
-      <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://millmint.studio/newsroom/blog/tags/map/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>diagram</title>
+      <link>https://millmint.studio/newsroom/blog/tags/diagram/</link>
+      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://millmint.studio/newsroom/blog/tags/diagram/</guid>
       <description></description>
     </item>
     

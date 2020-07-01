@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>2020 Studio MillMint</copyright>
-    <lastBuildDate>Tue, 07 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://millmint.studio/newsroom/blog/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>What is Vekllei?</title>
       <link>https://millmint.studio/newsroom/blog/posts/whatisvekllei/</link>
-      <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://millmint.studio/newsroom/blog/posts/whatisvekllei/</guid>
       <description>What is Vekllei? Hi, I’m Hobart and I write and draw Vekllei at Studio MillMint.
@@ -26,11 +26,21 @@ So Vekllei is a utopia — what does this mean? It’s latin for “no place,”
     <item>
       <title>The Village of Montre-Lola</title>
       <link>https://millmint.studio/newsroom/blog/posts/villagemapofmontrelola/</link>
-      <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://millmint.studio/newsroom/blog/posts/villagemapofmontrelola/</guid>
       <description>The village of Montre-Lola is home to about 400 people in its entirety, a stone’s throw from the Aisyo borough. Each morning, however, the population swells as 300 children from tiny villages in both Aisyo and Montre take a fast tram to the Montre-Lola Area School No. 2, a district school raising all ages of local youth.
 Like many Vekllei villages, Montre-Lola’s history is complex and has origin stories in both viking-inuit settlement as well as less sentimental government programmes that flourished after the atomic war.</description>
+    </item>
+    
+    <item>
+      <title>The Vekllei Crown</title>
+      <link>https://millmint.studio/newsroom/blog/posts/veklleicrown/</link>
+      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://millmint.studio/newsroom/blog/posts/veklleicrown/</guid>
+      <description>Vekllei, legendarily, does not use circulate currency. Goods and services are moved and offered arbitrarily, provided amply in abundance. Anything that is not abundant is manufactured and distributed directly under the control of a bureau, which is a trade organ responsible to the affairs of the country. At no point do coins or paper currency change hands in the day-to-day affairs of the country.
+In this sense, Vekllei is usually described as “moneyless” — yet it does in fact have a currency.</description>
     </item>
     
   </channel>

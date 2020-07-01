@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>diagram on MillMint Blog</title>
+    <link>https://millmint.studio/newsroom/blog/tags/diagram/</link>
+    <description>Recent content in diagram on MillMint Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>2020 Studio MillMint</copyright>
+    <lastBuildDate>Wed, 24 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://millmint.studio/newsroom/blog/tags/diagram/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Vekllei Crown</title>
+      <link>https://millmint.studio/newsroom/blog/posts/veklleicrown/</link>
+      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://millmint.studio/newsroom/blog/posts/veklleicrown/</guid>
+      <description>Vekllei, legendarily, does not use circulate currency. Goods and services are moved and offered arbitrarily, provided amply in abundance. Anything that is not abundant is manufactured and distributed directly under the control of a bureau, which is a trade organ responsible to the affairs of the country. At no point do coins or paper currency change hands in the day-to-day affairs of the country.
+In this sense, Vekllei is usually described as “moneyless” — yet it does in fact have a currency.</description>
+    </item>
+    
+  </channel>
+</rss>
