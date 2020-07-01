@@ -33,19 +33,22 @@
   </url>
   
   <url>
-    <loc>https://millmint.studio/newsroom/blog/categories/</loc>
-  </url>
-  
-  <url>
     <loc>https://millmint.studio/newsroom/blog/tags/landscape/</loc>
+    <lastmod>2020-01-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://millmint.studio/newsroom/blog/tags/map/</loc>
+    <lastmod>2020-01-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://millmint.studio/newsroom/blog/posts/villagemapofmontrelola/</loc>
+    <lastmod>2020-01-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://millmint.studio/newsroom/blog/categories/</loc>
   </url>
   
 </urlset>
