@@ -6,6 +6,7 @@
     <description>Recent content on MillMint Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>2020 Studio MillMint</copyright>
     <lastBuildDate>Tue, 07 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="millmint.studio/blog/index.xml" rel="self" type="application/rss+xml" />
