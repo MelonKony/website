@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>author on MillMint Blog</title>
-    <link>millmint.studio/blog/tags/author/</link>
+    <link>/tags/author/</link>
     <description>Recent content in author on MillMint Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>2020 Studio MillMint</copyright>
     <lastBuildDate>Tue, 07 Jan 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="millmint.studio/blog/tags/author/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/author/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>What is Vekllei?</title>
-      <link>millmint.studio/blog/posts/welcome/</link>
+      <link>/posts/welcome/</link>
       <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>millmint.studio/blog/posts/welcome/</guid>
+      <guid>/posts/welcome/</guid>
       <description>What is Vekllei? Hi, I’m Hobart and I write and draw Vekllei at Studio MillMint.
 This is a pretty complex project. Not just complex insofar as there’s a lot to read about it, but that it uses concepts and terminology you might not be familiar with if this is your first time around utopian fiction.
 So Vekllei is a utopia — what does this mean? It’s latin for “no place,” and I use that literally.</description>

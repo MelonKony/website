@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on MillMint Blog</title>
-    <link>millmint.studio/blog/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on MillMint Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>2020 Studio MillMint</copyright>
     <lastBuildDate>Tue, 07 Jan 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="millmint.studio/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>author</title>
-      <link>millmint.studio/blog/tags/author/</link>
+      <link>/tags/author/</link>
       <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>millmint.studio/blog/tags/author/</guid>
+      <guid>/tags/author/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tzipora</title>
-      <link>millmint.studio/blog/tags/tzipora/</link>
+      <link>/tags/tzipora/</link>
       <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>millmint.studio/blog/tags/tzipora/</guid>
+      <guid>/tags/tzipora/</guid>
       <description></description>
     </item>
     
