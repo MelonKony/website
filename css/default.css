@@ -98,3 +98,8 @@ a:link {
 .inline-text {
   float: left;
 }
+
+.hr {
+  width: 1px;
+  background-color: black;
+}

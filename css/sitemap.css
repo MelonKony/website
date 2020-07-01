@@ -10,7 +10,7 @@ div, ul, li, h3, h1, p {
   font-size: 10px;
   line-height: 15px;
   text-transform: uppercase;
-  margin: 0;
+  margin: auto;
   padding: 0;
   word-break: break-word;
 }
@@ -21,6 +21,8 @@ h1 {
 
 h2 {
   font-weight: 600;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
 }
 
 li {
@@ -116,8 +118,8 @@ ul.row li.page ul.content li ul.section li:before {
 }
 
 section.window {
-  -webkit-transition: max-width 400ms ease-in-out;
-  transition: max-width 400ms ease-in-out;
+  -webkit-transition: max-width 200ms ease-in-out;
+  transition: max-width 200ms ease-in-out;
   max-width: 1000px;
   height: auto;
   padding: 20px;
@@ -126,10 +128,10 @@ section.window {
 }
 section.window .thin h3 {
   will-change: auto;
-  -webkit-transition: -webkit-transform 400ms ease-in-out;
-  transition: -webkit-transform 400ms ease-in-out;
-  transition: transform 400ms ease-in-out;
-  transition: transform 400ms ease-in-out, -webkit-transform 400ms ease-in-out;
+  -webkit-transition: -webkit-transform 200ms ease-in-out;
+  transition: -webkit-transform 200ms ease-in-out;
+  transition: transform 200ms ease-in-out;
+  transition: transform 200ms ease-in-out, -webkit-transform 400ms ease-in-out;
   -webkit-transform-origin: 0 50%;
           transform-origin: 0 50%;
 }

@@ -167,8 +167,8 @@ figure {
 }
 
 .row {
-  margin-left: -20px;
-  margin-right: -20px;
+  margin-left: -0px;
+  margin-right: -0px;
 }
 
 .row:after {
@@ -625,6 +625,7 @@ nav.main_nav > div > ul > li > a {
 ul.navbar {
   padding: 0;
   margin: 0;
+  margin-top: 6px;
   float: left;
 }
 
@@ -1003,10 +1004,11 @@ pre {
 }
 
 hr {
-  background-color: #e0e0e0;
+  background-color: black;
   border: 0;
   height: 1px;
-  margin-bottom: 1.5em;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
 }
 /* --------
 end basic style
@@ -1145,7 +1147,7 @@ body.header_logo_rounded .header_square_logo img {
 }
 
 .header_nav {
-  padding-top: 0px;
+  padding-top: 8px;
   padding-bottom: 10px;
   background-color: #F5F8F7;
   position: relative;
@@ -1450,8 +1452,8 @@ start posts grid
 ------------------------------------------- */
 /* start css to apply masonry effect on grid posts using Salvattore plugin */
 main.site-content {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 /*#grid_list[data-columns]::before {
   content: '2 .grid_col.col6';
@@ -7046,8 +7048,8 @@ start site footer
 }
 
 .site_footer {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 10px;
   border-top: 1px dotted #dedede;
 }
 
