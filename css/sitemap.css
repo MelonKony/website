@@ -19,6 +19,29 @@ div, ul, li, h3, h1, p {
   word-break: break-word;
 }
 
+a:link {
+  color: black;
+  background-color: transparent;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+  transition-duration: 0s;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 h1 {
   font-weight: 700;
 }
