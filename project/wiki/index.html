@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Welcome to Zelda Wiki #  THE ONLY COMPREHENSIVE ARCHIVE OF THE PETTICOAT PROJECT
-Astris ipse furtiva This wiki is divided into three main sections of interest: landscape utopia, character utopia and author utopia. You can find links to each on the menu bar to your left. Start with Landscape to learn more about Vekllei and the world, and for pages describing the various functions of the Vekllei state. Start with Character to learn more about the people of Vekllei and Atomic modern.">
+ Vekllei on the Web This wiki is divided into three main sections of interest: landscape utopia, character utopia and author utopia. You can find links to each on the menu bar to your left. Start with Landscape to learn more about Vekllei and the world, and for pages describing the various functions of the Vekllei state.">
 <meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Zelda Wiki" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
@@ -15,8 +15,8 @@ Astris ipse furtiva This wiki is divided into three main sections of interest: l
 <title>Zelda Wiki | ZELDA WIKI</title>
 <link rel="manifest" href="/project/wiki/manifest.json">
 <link rel="icon" href="/project/wiki/favicon.png" type="image/x-icon">
-<link rel="stylesheet" href="/project/wiki/book.min.4be6eff7996b8c2cf57b24a65975e3473bb68f8b6ca0bcd539bcf182b53b523e.css" integrity="sha256-S&#43;bv95lrjCz1eySmWXXjRzu2j4tsoLzVObzxgrU7Uj4=">
-<script defer src="/project/wiki/en.search.min.c49c1ec9cc7f457bb3c5254c48f887a49e937096a8c20a025835882e1d212df4.js" integrity="sha256-xJweycx/RXuzxSVMSPiHpJ6TcJaowgoCWDWILh0hLfQ="></script>
+<link rel="stylesheet" href="/project/wiki/book.min.d9d30327166fde190e80d2468eeebd85e6ee48c91976bd0427f52a95c807a0fe.css" integrity="sha256-2dMDJxZv3hkOgNJGju69hebuSMkZdr0EJ/UqlcgHoP4=">
+<script defer src="/project/wiki/en.search.min.bebe0a78cda32c26c20ff57acadc1d11bd0871cd3ec584c16c08fda3167a7dcd.js" integrity="sha256-vr4KeM2jLCbCD/V6ytwdEb0Icc0&#43;xYTBbAj9oxZ6fc0="></script>
 
 <script defer src="/project/wiki/sw.min.8ed0ae410dc8ef42ae095241e0903e2df7ad007989a59bda3eaca04994a8204f.js" integrity="sha256-jtCuQQ3I70KuCVJB4JA&#43;LfetAHmJpZvaPqygSZSoIE8="></script>
 <link rel="alternate" type="application/rss+xml" href="https://millmint.studio/project/wiki/index.xml" title="ZELDA WIKI" />
@@ -28,10 +28,9 @@ https://github.com/alex-shpak/hugo-book
 
 </head>
 
+<div id="nav"></div>
+
 <body dir=>
-
-	<div id="nav"></div>
-
   <input type="checkbox" class="hidden" id="menu-control" />
   <main class="container flex">
     <aside class="book-menu">
@@ -190,10 +189,12 @@ https://github.com/alex-shpak/hugo-book
   <a class="anchor" href="#welcome-to-zelda-wiki">#</a>
 </h1>
 <p><strong>THE ONLY COMPREHENSIVE ARCHIVE OF THE PETTICOAT PROJECT</strong></p>
+<p>
+  <img src="https://millmint.studio/static/banner.png" alt="banner" /></p>
 <div class="book-columns flex flex-wrap">
 
   <div class="flex-even markdown-inner">
-    <h2 id="astris-ipse-furtiva">Astris ipse furtiva</h2>
+    <h2 id="vekllei-on-the-web">Vekllei on the Web</h2>
 <p>This wiki is divided into three main sections of interest: landscape utopia, character utopia and author utopia. You can find links to each on the menu bar to your left. Start with Landscape to learn more about Vekllei and the world, and for pages describing the various functions of the Vekllei state. Start with Character to learn more about the people of Vekllei and Atomic modern. Start with Author to learn more about utopian fiction, Atomic Modern and MillMint itself.
   </div>
 
@@ -268,14 +269,13 @@ if (backup + system) {
 
   </main>
 
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script>
+	$(function(){
+	  $("#nav").load("../../partials/nav-project.html");
+	});
+	</script>
+	
 </body>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script>
-$(function(){
-  $("#nav").load("../../partials/nav-project.html");
-});
-</script>
 
 </html>
