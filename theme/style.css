@@ -156,6 +156,7 @@ figure {
 }
 
 .container {
+  width: 880px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -1156,7 +1157,7 @@ body.header_logo_rounded .header_square_logo img {
   border-bottom: 1px solid #eee;
 }
 
-.header_nav {
+.header_nav.container {
   width: 880px;
 }
 
@@ -6206,7 +6207,7 @@ start responsive design
 }
 
 @media screen and (max-width: 910px) {
-  .header_nav {
+  .header_nav.container {
     width: initial;
     max-width: 880px;
   }
