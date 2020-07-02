@@ -37,7 +37,7 @@ a:hover {
 }
 
 a:active {
-  color: yellow;
+  color: red;
   background-color: transparent;
   text-decoration: underline;
 }
