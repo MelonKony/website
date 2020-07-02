@@ -151,7 +151,7 @@ ul.navbar > li.menu-item > a {
   border-bottom: 1px solid #eee;
 }
 
-.header_nav.container {
+.header_nav {
   width: 880px;
 }
 
@@ -952,7 +952,7 @@ start responsive design
 }
 
 @media screen and (max-width: 910px) {
-  .header_nav.container {
+  .header_nav {
     width: initial;
     max-width: 880px;
   }
