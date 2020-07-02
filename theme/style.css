@@ -155,7 +155,7 @@ figure {
   font-weight: 300;
 }
 
-.navtainer {
+.container {
   width: 880px;
   margin-right: auto;
   margin-left: auto;
@@ -315,8 +315,8 @@ figure {
 
 .clearfix:before,
 .clearfix:after,
-.navtainer:before,
-.navtainer:after,
+.container:before,
+.container:after,
 .container-fluid:before,
 .container-fluid:after,
 .row:before,
@@ -327,7 +327,7 @@ figure {
 }
 
 .clearfix:after,
-.navtainer:after,
+.container:after,
 .container-fluid:after,
 .row:after
 {
@@ -1157,7 +1157,7 @@ body.header_logo_rounded .header_square_logo img {
   border-bottom: 1px solid #eee;
 }
 
-.header_nav.navtainer {
+.header_nav.container {
   width: 880px;
 }
 
@@ -6207,7 +6207,7 @@ start responsive design
 }
 
 @media screen and (max-width: 910px) {
-  .header_nav.navtainer {
+  .header_nav.container {
     width: initial;
     max-width: 880px;
   }
@@ -6230,7 +6230,7 @@ start responsive design
     margin-right: -15px;
   }
 
-  .navtainer {
+  .container {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
