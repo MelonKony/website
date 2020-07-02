@@ -1401,7 +1401,7 @@ start sticky header
 .sticky_header_nav_wrapper,
 body.header_is_stick .header_nav_wrapper {
   position: fixed;
-  width: 100;
+  width: 100%;
   z-index: 99;
 }
 
