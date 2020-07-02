@@ -1151,6 +1151,7 @@ body.header_logo_rounded .header_square_logo img {
   padding-bottom: 10px;
   background-color: #F5F8F7;
   position: fixed;
+  z-index: 99;
 }
 
 .header_nav_wrapper {
