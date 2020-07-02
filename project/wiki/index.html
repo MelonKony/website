@@ -25,14 +25,15 @@ Made with Book Theme
 https://github.com/alex-shpak/hugo-book
 -->
 
-  
+<div id="nav"></div>
+
 </head>
 
 <body dir=>
   <input type="checkbox" class="hidden" id="menu-control" />
   <main class="container flex">
     <aside class="book-menu">
-      
+
   <nav>
 <h2 class="book-brand">
   <a href="/project/wiki"><img src="https://millmint.studio/images/flower.png" alt="Logo" /><span>ZELDA WIKI</span>
@@ -118,15 +119,15 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-  
+
 <ul>
-  
+
   <li>
     <a href="/project/wiki/posts/" >
         Blog
       </a>
   </li>
-  
+
 </ul>
 
 
@@ -142,12 +143,12 @@ https://github.com/alex-shpak/hugo-book
   <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
 
 
- 
+
     </aside>
 
     <div class="book-page">
       <header class="book-header">
-        
+
   <div class="flex align-center justify-between">
   <label for="menu-control">
     <img src="/project/wiki/svg/menu.svg" class="book-icon" alt="Menu" />
@@ -156,17 +157,17 @@ https://github.com/alex-shpak/hugo-book
   <strong>Zelda Wiki</strong>
 
   <label for="toc-control">
-    
+
     <img src="/project/wiki/svg/toc.svg" class="book-icon" alt="Table of Contents" />
-    
+
   </label>
 </div>
 
 
-  
+
     <input type="checkbox" class="hidden" id="toc-control" />
     <aside class="hidden clearfix">
-      
+
   <nav id="TableOfContents">
   <ul>
     <li><a href="#tempora-nisi-nunc">Tempora nisi nunc</a></li>
@@ -176,29 +177,29 @@ https://github.com/alex-shpak/hugo-book
 
 
     </aside>
-  
- 
+
+
       </header>
 
-      
-      
+
+
   <article class="markdown"><h1 id="welcome-to-zelda-wiki">
   Welcome to Zelda Wiki
   <a class="anchor" href="#welcome-to-zelda-wiki">#</a>
 </h1>
 <p><strong>THE ONLY COMPREHENSIVE ARCHIVE OF THE PETTICOAT PROJECT</strong></p>
 <div class="book-columns flex flex-wrap">
-  
+
   <div class="flex-even markdown-inner">
     <h2 id="astris-ipse-furtiva">Astris ipse furtiva</h2>
 <p>This wiki is divided into three main sections of interest: landscape utopia, character utopia and author utopia. You can find links to each on the menu bar to your left. Start with Landscape to learn more about Vekllei and the world, and for pages describing the various functions of the Vekllei state. Start with Character to learn more about the people of Vekllei and Atomic modern. Start with Author to learn more about utopian fiction, Atomic Modern and MillMint itself.
   </div>
-  
+
   <div class="flex-even markdown-inner">
     <h2 id="navigation">Navigation</h2>
 <p>Pages on this site are <strong>located in the left sidebar</strong>. Navigation within a page is <strong>located within the right sidebar</strong>.
   </div>
-  
+
 </div>
 
 <h2 id="tempora-nisi-nunc">
@@ -222,11 +223,11 @@ if (backup + system) {
 </h2>
 <p>Idmoniae ripis, at aves, ali missa adest, ut <em>et autem</em>, et ab?</p>
 </article>
- 
-      
+
+
 
       <footer class="book-footer">
-        
+
   <div class="flex flex-wrap justify-between">
 
 
@@ -235,24 +236,24 @@ if (backup + system) {
 
 </div>
 
- 
-        
+
+
       </footer>
 
-      
-  
+
+
   <div class="book-comments">
 
 </div>
-  
- 
+
+
 
       <label for="menu-control" class="hidden book-menu-overlay"></label>
     </div>
 
-    
+
     <aside class="book-toc">
-      
+
   <nav id="TableOfContents">
   <ul>
     <li><a href="#tempora-nisi-nunc">Tempora nisi nunc</a></li>
@@ -260,24 +261,19 @@ if (backup + system) {
   </ul>
 </nav>
 
- 
+
     </aside>
-    
+
   </main>
 
-  
+
 </body>
 
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script>
+$(function(){
+  $("#nav").load("../../partials/nav-project.html");
+});
+</script>
+
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
