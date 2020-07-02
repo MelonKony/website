@@ -1400,7 +1400,7 @@ start sticky header
 .hidden_sticky_helper,
 .sticky_header_nav_wrapper,
 body.header_is_stick .header_nav_wrapper {
-  display: none;
+  /* display: none; */
 }
 
 body.header_is_stick .hidden_sticky_helper,
