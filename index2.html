@@ -15,7 +15,6 @@
       <style id='custom-inline-css' type='text/css'>body { font-family: 'Roboto', sans-serif; }h1, h2, h3, h4, h5, h6, .title, .text_logo, .comment-reply-title, .header_square_logo a.square_letter_logo {font-family: 'Poppins', sans-serif;}a { color: #ff374a; }
       </style>
 
-      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
       <script type='text/javascript' src='https://c0.wp.com/c/5.4.2/wp-includes/js/jquery/jquery.js'></script>
       <script type='text/javascript' src='https://c0.wp.com/c/5.4.2/wp-includes/js/jquery/jquery-migrate.min.js'></script>
 
@@ -33,8 +32,101 @@
   </div>
   <canvas id="HeaderCanvas" class="edge-to-edge hug-top" width="1000" height="900"></canvas>
 
-  <div id="nav"></div>
+  <!-- header -->
 
+  <header class="site_header">
+    <div class="header_nav_wrapper unsticky_header_nav_wrapper">
+      <div class="header_nav">
+        <div class="container">
+          <div class="site_branding">
+            <h1 class="text_logo">
+              <a href="index.html" rel="home">STUDIO MILLMINT
+                <img src='images/flower.png' height='25' width='25' /></a>
+            </h1>
+          </div>
+
+          <!-- Place header control before main menu if site title is enabled -->
+          <div class="header_controls">
+
+            <div class="header_sliding_sidebar_control header_control_wrapper">
+              <a id="user_control_icon" class="sliding_sidebar_button" href="#">
+                <i class="fa fa-bars"></i>
+              </a>
+            </div>
+
+          </div>
+
+
+          <div class="main_menu">
+            <ul id="top-menu" class="navbar">
+              <li id="menu-item-585"
+                class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-585 default_menu active">
+                <a href="index.html">Home/家</a></li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-702 default_menu"><a
+                  href="project/index.html">Project/参照</a></li>
+              <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-523 default_menu"><a
+                  href="files/index.html">Files/資料</a></li>
+              <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-524 default_menu"><a
+                  href="newsroom/index.html">News/便り</a></li>
+              <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-525 default_menu"><a
+                  href="about/index.html">About/約</a></li>
+            </ul>
+            <span class="menu_mark_circle mark_circle_loaded" style="display: block; left: 41.5px;"></span>
+          </div>
+
+          <!-- Place header control after main menu if site title is enabled -->
+
+        </div><!-- end .container -->
+      </div><!-- end .header_nav -->
+    </div><!-- end .header_nav_wrapper -->
+  </header>
+
+  <div id="page" class="site">
+    <div class="sticky_header_nav_wrapper header_nav_wrapper">
+      <div class="header_nav">
+
+        <div class="container">
+          <div class="site_branding">
+            <h1 class="text_logo"><a href="index.html" rel="home">STUDIO MILLMINT <img src='images/flower.png'
+                  height='25' width='25' />
+              </a></h1>
+          </div>
+
+
+          <!-- Place header control before main menu if site title is enabled -->
+          <div class="header_controls">
+
+
+            <div class="header_sliding_sidebar_control header_control_wrapper">
+              <a id="user_control_icon" class="sliding_sidebar_button" href="#">
+                <i class="fas fa-bars header_control_icon"></i>
+              </a>
+            </div>
+
+          </div>
+
+
+          <div class="main_menu">
+            <ul id="top-menu" class="navbar">
+              <li id="menu-item-585"
+                class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-585 default_menu active">
+                <a href="index.html">Home|家</a></li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-702 default_menu"><a
+                  href="project/index.html">Project/参照</a></li>
+              <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-523 default_menu"><a
+                  href="files/index.html">Files/資料</a></li>
+              <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-524 default_menu"><a
+                  href="newsroom/index.html">News/便り</a></li>
+              <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-525 default_menu"><a
+                  href="about/index.html">About/約</a></li>
+            </ul>
+            <span class="menu_mark_circle mark_circle_loaded" style="display: block; left: 41.5px;"></span>
+          </div>
+          <!-- Place header control after main menu if site title is enabled -->
+
+        </div><!-- end .container -->
+      </div><!-- end .header_nav -->
+    </div><!-- end .header_nav_wrapper -->
 <hr>
     <div class="site_main_container">
 
@@ -196,17 +288,42 @@
 
     </div><!-- .site_main_container -->
 
+
+    <!-- start sliding sidebar content -->
+    <div class="sliding_close_helper_overlay"></div>
+    <div class="site_side_container">
+      <h3 class="screen-reader-text">Sliding Sidebar</h3>
+      <div class="info_sidebar">
+
+        <div class="top_header_items_holder mobile_menu_opened">
+          <div class="main_menu">
+            <ul id="mobile-menu" class="navbar">
+              <li id="menu-item-585"
+                class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-585 default_menu active">
+                <a href="index.html">Home/家</a></li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-702 default_menu"><a
+                  href="project/index.html">Project/参照</a></li>
+              <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-523 default_menu"><a
+                  href="files/index.html">Files/資料</a></li>
+              <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-524 default_menu"><a
+                  href="newsroom/index.html">News/便り</a></li>
+              <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-525 default_menu"><a
+                  href="about/index.html">About/約</a></li>
+            </ul>
+          </div>
+        </div> <!-- end .top_header_items_holder -->
+
+      </div>
+    </div>
+    <!-- end sliding sidebar content -->
+
+  </div>
+
   <!-- falling engine -->
   <script type='text/javascript'
     src='theme/assets/js/global.js'></script>
   <script type='text/javascript'
     src='theme/plugins/core/inc/core.js'></script>
-
-    <script>
-    $(function(){
-      $("#nav").load("partials/nav.html");
-    });
-    </script>
 
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
   <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
