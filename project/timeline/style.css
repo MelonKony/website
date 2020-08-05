@@ -18,6 +18,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #5b636b;
+  --body-margin: 8px;
+  padding: 0px;
+  margin: var(--body-margin);
 }
 
 a {
