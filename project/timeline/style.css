@@ -1,11 +1,5 @@
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Fira+Sans:200,400,500);
-* {
-  border: 0;
-  margin: 0;
-  padding: 0;
-}
-
 html {
   height: 100%;
 }
