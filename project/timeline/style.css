@@ -15,7 +15,7 @@ body {
 }
 
 div, ul, li, h3, h1, p {
-  margin: auto;
+  margin: 0;
   padding: 0;
 }
 
