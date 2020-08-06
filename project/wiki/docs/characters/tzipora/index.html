@@ -28,7 +28,8 @@ Made with Book Theme
 https://github.com/alex-shpak/hugo-book
 -->
 
-  
+  <div id="nav"></div>
+
 </head>
 
 <body dir=>
@@ -218,6 +219,7 @@ https://github.com/alex-shpak/hugo-book
       </header>
 
       
+
       
   <article class="markdown"><p><blockquote class="book-hint info">
   <strong>Key Article</strong><br>
@@ -408,6 +410,7 @@ This article is complete. It was last updated in July 2020.
  
       
 
+
       <footer class="book-footer">
         
   <div class="flex flex-wrap justify-between">
@@ -419,7 +422,12 @@ This article is complete. It was last updated in July 2020.
 </div>
 
  
-        
+        <script>
+$(function(){
+  $("#nav").load("../../../../partials/nav-project.html");
+});
+</script>
+
       </footer>
 
       
@@ -482,7 +490,8 @@ This article is complete. It was last updated in July 2020.
     
   </main>
 
-  
+  <div id="nav"></div>
+
 </body>
 
 </html>

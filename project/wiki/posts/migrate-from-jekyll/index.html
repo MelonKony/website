@@ -27,7 +27,8 @@ Made with Book Theme
 https://github.com/alex-shpak/hugo-book
 -->
 
-  
+  <div id="nav"></div>
+
 </head>
 
 <body dir=>
@@ -198,6 +199,7 @@ https://github.com/alex-shpak/hugo-book
       </header>
 
       
+
       
 <article class="markdown">
   <h1>
@@ -394,6 +396,7 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
  
       
 
+
       <footer class="book-footer">
         
   <div class="flex flex-wrap justify-between">
@@ -405,7 +408,12 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
 </div>
 
  
-        
+        <script>
+$(function(){
+  $("#nav").load("../../../../partials/nav-project.html");
+});
+</script>
+
       </footer>
 
       
@@ -449,7 +457,8 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
     
   </main>
 
-  
+  <div id="nav"></div>
+
 </body>
 
 </html>

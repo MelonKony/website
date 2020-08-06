@@ -23,7 +23,8 @@ Made with Book Theme
 https://github.com/alex-shpak/hugo-book
 -->
 
-  
+  <div id="nav"></div>
+
 </head>
 
 <body dir=>
@@ -196,6 +197,7 @@ https://github.com/alex-shpak/hugo-book
       </header>
 
       
+
       
   
   <article class="markdown book-post">
@@ -293,6 +295,7 @@ Follow the following steps:
  
       
 
+
       <footer class="book-footer">
         
   <div class="flex flex-wrap justify-between">
@@ -304,7 +307,12 @@ Follow the following steps:
 </div>
 
  
-        
+        <script>
+$(function(){
+  $("#nav").load("../../../../partials/nav-project.html");
+});
+</script>
+
       </footer>
 
       
@@ -346,7 +354,8 @@ Follow the following steps:
     
   </main>
 
-  
+  <div id="nav"></div>
+
 </body>
 
 </html>

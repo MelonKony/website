@@ -24,7 +24,8 @@ Made with Book Theme
 https://github.com/alex-shpak/hugo-book
 -->
 
-  
+  <div id="nav"></div>
+
 </head>
 
 <body dir=>
@@ -175,6 +176,7 @@ https://github.com/alex-shpak/hugo-book
       </header>
 
       
+
       
   <article class="markdown"><blockquote class="book-hint warning">
   <strong>Under Construction</strong><br>
@@ -184,6 +186,7 @@ This page is still under construction, and may be incomplete.
 </article>
  
       
+
 
       <footer class="book-footer">
         
@@ -196,7 +199,12 @@ This page is still under construction, and may be incomplete.
 </div>
 
  
-        
+        <script>
+$(function(){
+  $("#nav").load("../../../../partials/nav-project.html");
+});
+</script>
+
       </footer>
 
       
@@ -220,7 +228,8 @@ This page is still under construction, and may be incomplete.
     
   </main>
 
-  
+  <div id="nav"></div>
+
 </body>
 
 </html>

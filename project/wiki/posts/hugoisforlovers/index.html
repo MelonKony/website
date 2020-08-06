@@ -31,7 +31,8 @@ Made with Book Theme
 https://github.com/alex-shpak/hugo-book
 -->
 
-  
+  <div id="nav"></div>
+
 </head>
 
 <body dir=>
@@ -189,6 +190,7 @@ https://github.com/alex-shpak/hugo-book
       </header>
 
       
+
       
 <article class="markdown">
   <h1>
@@ -279,6 +281,7 @@ Having nearly instant feedback enables you to have your creativity flow without 
  
       
 
+
       <footer class="book-footer">
         
   <div class="flex flex-wrap justify-between">
@@ -290,7 +293,12 @@ Having nearly instant feedback enables you to have your creativity flow without 
 </div>
 
  
-        
+        <script>
+$(function(){
+  $("#nav").load("../../../../partials/nav-project.html");
+});
+</script>
+
       </footer>
 
       
@@ -321,7 +329,8 @@ Having nearly instant feedback enables you to have your creativity flow without 
     
   </main>
 
-  
+  <div id="nav"></div>
+
 </body>
 
 </html>

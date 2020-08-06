@@ -25,7 +25,8 @@ Made with Book Theme
 https://github.com/alex-shpak/hugo-book
 -->
 
-  
+  <div id="nav"></div>
+
 </head>
 
 <body dir=>
@@ -235,6 +236,7 @@ https://github.com/alex-shpak/hugo-book
       </header>
 
       
+
       
 <article class="markdown">
   <h1>
@@ -1196,6 +1198,7 @@ $ vi themes/zafta/layouts/_default/single.html
  
       
 
+
       <footer class="book-footer">
         
   <div class="flex flex-wrap justify-between">
@@ -1207,7 +1210,12 @@ $ vi themes/zafta/layouts/_default/single.html
 </div>
 
  
-        
+        <script>
+$(function(){
+  $("#nav").load("../../../../partials/nav-project.html");
+});
+</script>
+
       </footer>
 
       
@@ -1290,7 +1298,8 @@ $ vi themes/zafta/layouts/_default/single.html
     
   </main>
 
-  
+  <div id="nav"></div>
+
 </body>
 
 </html>
