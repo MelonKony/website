@@ -19,6 +19,15 @@ div, ul, li, h3, h1, p {
   word-break: break-word;
 }
 
+div::-webkit-scrollbar {
+  display: none;
+}
+
+div {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
 a:link {
   color: black;
   background-color: transparent;
