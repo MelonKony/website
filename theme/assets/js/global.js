@@ -233,7 +233,7 @@ function readyFn (jQuery) {
 		}
 		jQuery('.current_view_bar').removeClass('current_view_bar');
 		jQuery(header_nav_wrapper).addClass('current_view_bar');
-		var currentMenuPos = jQuery('ul#top-menu > li.menu-item.current-menu-item, ul#top-menu > li.menu-item.current_page_item, ul#top-menu > li.menu-item.current-menu-ancestor, ul#top-menu > li.menu-item.current-menu-parent').position();
+		var currentMenuPos = jQuery('.current_view_bar .header_nav .main_menu > ul.navbar > li.menu-item.current-menu-item, .current_view_bar .header_nav .main_menu > ul.navbar > li.menu-item.current_page_item, .current_view_bar .header_nav .main_menu > ul.navbar > li.menu-item.current-menu-ancestor, .current_view_bar .header_nav .main_menu > ul.navbar > li.menu-item.current-menu-parent').position();
 		var currentMenuWidth = jQuery('.current_view_bar .header_nav .main_menu > ul.navbar > li.menu-item.current-menu-item, .current_view_bar .header_nav .main_menu > ul.navbar > li.menu-item.current_page_item, .current_view_bar .header_nav .main_menu > ul.navbar > li.menu-item.current-menu-ancestor, .current_view_bar .header_nav .main_menu > ul.navbar > li.menu-item.current-menu-parent').width();
 		currentMarkLeft = currentMenuPos.left + (currentMenuWidth / 2);
 
