@@ -1,59 +1,49 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on MillMint Blog</title>
+    <title>Tags on Studio MillMint</title>
     <link>https://millmint.studio/newsroom/blog/tags/</link>
-    <description>Recent content in Tags on MillMint Blog</description>
+    <description>Recent content in Tags on Studio MillMint</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>2020 Studio MillMint</copyright>
-    <lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <language>en</language>
+    <lastBuildDate>Fri, 16 Aug 2019 23:11:28 +0000</lastBuildDate>
     
 	<atom:link href="https://millmint.studio/newsroom/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>author</title>
-      <link>https://millmint.studio/newsroom/blog/tags/author/</link>
-      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <title>infograph</title>
+      <link>https://millmint.studio/newsroom/blog/tags/infograph/</link>
+      <pubDate>Fri, 16 Aug 2019 23:11:28 +0000</pubDate>
       
-      <guid>https://millmint.studio/newsroom/blog/tags/author/</guid>
+      <guid>https://millmint.studio/newsroom/blog/tags/infograph/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>tzipora</title>
-      <link>https://millmint.studio/newsroom/blog/tags/tzipora/</link>
-      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <title>trains</title>
+      <link>https://millmint.studio/newsroom/blog/tags/trains/</link>
+      <pubDate>Fri, 16 Aug 2019 23:11:28 +0000</pubDate>
       
-      <guid>https://millmint.studio/newsroom/blog/tags/tzipora/</guid>
+      <guid>https://millmint.studio/newsroom/blog/tags/trains/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>landscape</title>
-      <link>https://millmint.studio/newsroom/blog/tags/landscape/</link>
-      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
+      <title>intro</title>
+      <link>https://millmint.studio/newsroom/blog/tags/intro/</link>
+      <pubDate>Fri, 26 Jul 2019 00:46:30 +0000</pubDate>
       
-      <guid>https://millmint.studio/newsroom/blog/tags/landscape/</guid>
+      <guid>https://millmint.studio/newsroom/blog/tags/intro/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>map</title>
-      <link>https://millmint.studio/newsroom/blog/tags/map/</link>
-      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
+      <title>meta</title>
+      <link>https://millmint.studio/newsroom/blog/tags/meta/</link>
+      <pubDate>Fri, 26 Jul 2019 00:46:30 +0000</pubDate>
       
-      <guid>https://millmint.studio/newsroom/blog/tags/map/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>diagram</title>
-      <link>https://millmint.studio/newsroom/blog/tags/diagram/</link>
-      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://millmint.studio/newsroom/blog/tags/diagram/</guid>
+      <guid>https://millmint.studio/newsroom/blog/tags/meta/</guid>
       <description></description>
     </item>
     

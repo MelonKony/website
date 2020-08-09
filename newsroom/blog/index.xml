@@ -1,46 +1,56 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>MillMint Blog</title>
+    <title>Studio MillMint</title>
     <link>https://millmint.studio/newsroom/blog/</link>
-    <description>Recent content on MillMint Blog</description>
+    <description>Recent content on Studio MillMint</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>2020 Studio MillMint</copyright>
-    <lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <language>en</language>
+    <lastBuildDate>Fri, 16 Aug 2019 23:11:28 +0000</lastBuildDate>
     
 	<atom:link href="https://millmint.studio/newsroom/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>The People of Vekllei’s Railway (plus Dog)</title>
+      <link>https://millmint.studio/newsroom/blog/posts/2019-8-16-station-dog/</link>
+      <pubDate>Fri, 16 Aug 2019 23:11:28 +0000</pubDate>
+      
+      <guid>https://millmint.studio/newsroom/blog/posts/2019-8-16-station-dog/</guid>
+      <description>Station Dogs I’m starting a series looking at the lives and machines of domestic Vekllei life.
+Vekllei National Railways, or ‘VK Rail’ was the bastard of six major pre-war rail companies that were extinguished along with the society that housed them. Today there are three rail companies in Vekllei, but all of them operate under direct supervision of a Vekllei Industry Bureau (making it Venrouiva, in other words) and are only broken up for reasons of logistics.</description>
+    </item>
+    
+    <item>
       <title>What is Vekllei?</title>
-      <link>https://millmint.studio/newsroom/blog/posts/whatisvekllei/</link>
-      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <link>https://millmint.studio/newsroom/blog/posts/2019-7-26-what-is-vekllei/</link>
+      <pubDate>Fri, 26 Jul 2019 00:46:30 +0000</pubDate>
       
-      <guid>https://millmint.studio/newsroom/blog/posts/whatisvekllei/</guid>
-      <description>What is Vekllei? Hi, I’m Hobart and I write and draw Vekllei at Studio MillMint.
-This is a pretty complex project. Not just complex insofar as there’s a lot to read about it, but that it uses concepts and terminology you might not be familiar with if this is your first time around utopian fiction.
-So Vekllei is a utopia — what does this mean? It’s latin for “no place,” and I use that literally.</description>
-    </item>
-    
-    <item>
-      <title>The Village of Montre-Lola</title>
-      <link>https://millmint.studio/newsroom/blog/posts/villagemapofmontrelola/</link>
-      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://millmint.studio/newsroom/blog/posts/villagemapofmontrelola/</guid>
-      <description>The village of Montre-Lola is home to about 400 people in its entirety, a stone’s throw from the Aisyo borough. Each morning, however, the population swells as 300 children from tiny villages in both Aisyo and Montre take a fast tram to the Montre-Lola Area School No. 2, a district school raising all ages of local youth.
-Like many Vekllei villages, Montre-Lola’s history is complex and has origin stories in both viking-inuit settlement as well as less sentimental government programmes that flourished after the atomic war.</description>
-    </item>
-    
-    <item>
-      <title>The Vekllei Crown</title>
-      <link>https://millmint.studio/newsroom/blog/posts/veklleicrown/</link>
-      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://millmint.studio/newsroom/blog/posts/veklleicrown/</guid>
-      <description>Vekllei, legendarily, does not use circulate currency. Goods and services are moved and offered arbitrarily, provided amply in abundance. Anything that is not abundant is manufactured and distributed directly under the control of a bureau, which is a trade organ responsible to the affairs of the country. At no point do coins or paper currency change hands in the day-to-day affairs of the country.
-In this sense, Vekllei is usually described as “moneyless” — yet it does in fact have a currency.</description>
+      <guid>https://millmint.studio/newsroom/blog/posts/2019-7-26-what-is-vekllei/</guid>
+      <description>:-)
+Look at the stars
+抬头仰望满天繁星
+Look how they shine for you
+看它们为你绽放着 闪烁不息
+And everything you do
+而你的一颦一举
+Yeah&amp;rsquo; they were all Yellow
+却满含胆怯和羞意
+I came along
+我追随着你的气息
+I wrote a song for you
+为你写下一首歌曲
+And all the things you do
+回想着你的所有举动和笑意
+it was called Yellow
+并用Yellow为这首歌命名
+So then I took my turn
+我耗尽心力
+Oh what a thing to have done
+用行动表达我的爱意
+And it was all Yellow
+噢这过程充满不安羞怯和点滴暖意
+Your skin</description>
     </item>
     
   </channel>

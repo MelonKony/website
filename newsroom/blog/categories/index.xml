@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on MillMint Blog</title>
+    <title>Categories on Studio MillMint</title>
     <link>https://millmint.studio/newsroom/blog/categories/</link>
-    <description>Recent content in Categories on MillMint Blog</description>
+    <description>Recent content in Categories on Studio MillMint</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>2020 Studio MillMint</copyright>
+    <language>en</language>
+    <lastBuildDate>Fri, 16 Aug 2019 23:11:28 +0000</lastBuildDate>
     
 	<atom:link href="https://millmint.studio/newsroom/blog/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>landscape</title>
+      <link>https://millmint.studio/newsroom/blog/categories/landscape/</link>
+      <pubDate>Fri, 16 Aug 2019 23:11:28 +0000</pubDate>
+      
+      <guid>https://millmint.studio/newsroom/blog/categories/landscape/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
