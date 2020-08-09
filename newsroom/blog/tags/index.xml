@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Studio MillMint</title>
+    <title>Tags on ミルミント</title>
     <link>https://millmint.studio/newsroom/blog/tags/</link>
-    <description>Recent content in Tags on Studio MillMint</description>
+    <description>Recent content in Tags on ミルミント</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 09 Aug 2020 05:22:34 +0000</lastBuildDate>
@@ -35,6 +35,33 @@
       <pubDate>Sun, 09 Aug 2020 05:22:34 +0000</pubDate>
       
       <guid>https://millmint.studio/newsroom/blog/tags/zelda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>concept</title>
+      <link>https://millmint.studio/newsroom/blog/tags/concept/</link>
+      <pubDate>Sat, 01 Aug 2020 06:58:58 +0000</pubDate>
+      
+      <guid>https://millmint.studio/newsroom/blog/tags/concept/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>painting</title>
+      <link>https://millmint.studio/newsroom/blog/tags/painting/</link>
+      <pubDate>Tue, 28 Jul 2020 00:23:06 +0000</pubDate>
+      
+      <guid>https://millmint.studio/newsroom/blog/tags/painting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>watercolour</title>
+      <link>https://millmint.studio/newsroom/blog/tags/watercolour/</link>
+      <pubDate>Tue, 28 Jul 2020 00:23:06 +0000</pubDate>
+      
+      <guid>https://millmint.studio/newsroom/blog/tags/watercolour/</guid>
       <description></description>
     </item>
     
