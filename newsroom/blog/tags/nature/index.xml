@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nature on ミルミント</title>
+    <link>https://millmint.studio/newsroom/blog/tags/nature/</link>
+    <description>Recent content in nature on ミルミント</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 21 Jul 2020 03:20:32 +0000</lastBuildDate>
+    
+	<atom:link href="https://millmint.studio/newsroom/blog/tags/nature/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Base Camp</title>
+      <link>https://millmint.studio/newsroom/blog/posts/2020-07-21-base-camp/</link>
+      <pubDate>Tue, 21 Jul 2020 03:20:32 +0000</pubDate>
+      
+      <guid>https://millmint.studio/newsroom/blog/posts/2020-07-21-base-camp/</guid>
+      <description>Just a paint-sketch.
+The puffin scouts set up camp not far from the rest, just outside of Krafla in the Lava region. When they moved south tomorrow, thick native grasses and trees would give way to flower-tundras and bare hills, and by Tuesday they’d be in the heart of Lava — empty and extraterrestrial and volcanic.
+The Krafla high-energy communications tower was visible from all over the region. It provided uninterrupted radio to most of North Lava, and could relay signals through satellites.</description>
+    </item>
+    
+  </channel>
+</rss>
