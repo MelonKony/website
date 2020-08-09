@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>maps on ミルミント</title>
+    <link>https://millmint.studio/newsroom/blog/tags/maps/</link>
+    <description>Recent content in maps on ミルミント</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 29 Jun 2020 04:50:47 +0000</lastBuildDate>
+    
+	<atom:link href="https://millmint.studio/newsroom/blog/tags/maps/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Village Map of Montre-Lola</title>
+      <link>https://millmint.studio/newsroom/blog/posts/2020-06-29-montrelola/</link>
+      <pubDate>Mon, 29 Jun 2020 04:50:47 +0000</pubDate>
+      
+      <guid>https://millmint.studio/newsroom/blog/posts/2020-06-29-montrelola/</guid>
+      <description>The village of Montre-Lola is home to about 400 people in its entirety, a stone’s throw from the Aisyo borough. Each morning, however, the population swells as 300 children from tiny villages in both Aisyo and Montre take a fast tram to the Montre-Lola Area School No. 2, a district school raising all ages of local youth.
+Like many Vekllei villages, Montre-Lola’s history is complex and has origin stories in both viking-inuit settlement as well as less sentimental government programmes that flourished after the atomic war.</description>
+    </item>
+    
+  </channel>
+</rss>
