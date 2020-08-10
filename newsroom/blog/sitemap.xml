@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://millmint.studio/newsroom/blog/about/</loc>
+    <lastmod>2020-08-09T23:06:42+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://millmint.studio/newsroom/blog/tags/future/</loc>
     <lastmod>2020-08-09T05:22:34+00:00</lastmod>
   </url>
@@ -174,12 +179,87 @@
   
   <url>
     <loc>https://millmint.studio/newsroom/blog/posts/2020-06-03-canal/</loc>
-    <lastmod>2020-06-06T02:11:15+00:00</lastmod>
+    <lastmod>2020-06-03T02:11:15+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://millmint.studio/newsroom/blog/tags/cityscape/</loc>
-    <lastmod>2020-06-06T02:11:15+00:00</lastmod>
+    <lastmod>2020-06-03T02:11:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://millmint.studio/newsroom/blog/tags/fission/</loc>
+    <lastmod>2020-06-01T01:06:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://millmint.studio/newsroom/blog/posts/2020-06-01-fission/</loc>
+    <lastmod>2020-06-01T01:06:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://millmint.studio/newsroom/blog/posts/2020-05-27-rain/</loc>
+    <lastmod>2020-05-27T00:33:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://millmint.studio/newsroom/blog/posts/2020-05-21-missed-train/</loc>
+    <lastmod>2020-05-21T01:45:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://millmint.studio/newsroom/blog/tags/trains/</loc>
+    <lastmod>2020-05-21T01:45:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://millmint.studio/newsroom/blog/tags/school/</loc>
+    <lastmod>2020-05-16T23:18:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://millmint.studio/newsroom/blog/posts/2020-05-16-winter-uniforms/</loc>
+    <lastmod>2020-05-16T23:18:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://millmint.studio/newsroom/blog/posts/2020-05-15-apartment/</loc>
+    <lastmod>2020-05-15T02:12:08+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://millmint.studio/newsroom/blog/tags/architecture/</loc>
+    <lastmod>2020-05-15T02:12:08+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://millmint.studio/newsroom/blog/tags/announcements/</loc>
+    <lastmod>2020-05-13T01:30:33+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://millmint.studio/newsroom/blog/posts/2020-05-13-tzipostcards/</loc>
+    <lastmod>2020-05-13T01:30:33+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://millmint.studio/newsroom/blog/tags/meta/</loc>
+    <lastmod>2020-05-13T01:30:33+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://millmint.studio/newsroom/blog/posts/2020-05-07-fiery-peaks/</loc>
+    <lastmod>2020-05-07T00:32:19+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://millmint.studio/newsroom/blog/posts/2020-05-06-chemical-feast/</loc>
+    <lastmod>2020-05-06T02:55:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://millmint.studio/newsroom/blog/posts/2020-05-02-trials/</loc>
+    <lastmod>2020-05-02T01:53:36+00:00</lastmod>
   </url>
   
   <url>
@@ -198,23 +278,17 @@
   </url>
   
   <url>
-    <loc>https://millmint.studio/newsroom/blog/tags/trains/</loc>
-    <lastmod>2019-08-16T23:11:28+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://millmint.studio/newsroom/blog/tags/intro/</loc>
-    <lastmod>2019-07-26T00:46:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://millmint.studio/newsroom/blog/tags/meta/</loc>
     <lastmod>2019-07-26T00:46:30+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://millmint.studio/newsroom/blog/posts/2019-07-26-what-is-vekllei/</loc>
     <lastmod>2019-07-26T00:46:30+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://millmint.studio/newsroom/blog/tags/ab/ni/</loc>
   </url>
   
 </urlset>
