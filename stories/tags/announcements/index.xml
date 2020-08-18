@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>announcements on ミルミント</title>
+    <link>https://millmint.studio/stories/tags/announcements/</link>
+    <description>Recent content in announcements on ミルミント</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 13 May 2020 01:30:33 +0000</lastBuildDate>
+    
+	<atom:link href="https://millmint.studio/stories/tags/announcements/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Announcing Tzipo-stcards</title>
+      <link>https://millmint.studio/stories/posts/2020-05-13-tzipostcards/</link>
+      <pubDate>Wed, 13 May 2020 01:30:33 +0000</pubDate>
+      
+      <guid>https://millmint.studio/stories/posts/2020-05-13-tzipostcards/</guid>
+      <description>Hello everyone. Just a little update.
+As a way of thanking my Patrons, I’m taking some time over the next two weeks or so to create a little set of Tzipora postcards and send them out as gifts.
+How many cards will the set contain?
+ I’m aiming for about six cards.
+ How much money would you need to have forked over to get some?
+ I think about $20 over your pledge lifetime would cover print and shipping, though I’ll let you know if that goes up or down.</description>
+    </item>
+    
+  </channel>
+</rss>
