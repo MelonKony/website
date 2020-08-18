@@ -12,8 +12,7 @@ html {
 
 /* This code resets the body's margin, and defines a class that we can use to force elements to extend outside the margins of the body*/
 body{
-    --body-margin-top: 8px;
-    --body-margin-bottom: 8px;
+    --body-margin: 8px;
 
     padding: 0px;
     margin: var(--body-margin);
