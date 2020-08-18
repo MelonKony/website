@@ -35,6 +35,12 @@ body > .hug-top{
 
 }
 
+#BodyCanvas{
+
+    height: 100vh;
+
+}
+
 
 #FallingCanvas{
 
