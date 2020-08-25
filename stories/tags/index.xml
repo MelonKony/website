@@ -6,24 +6,24 @@
     <description>Recent content in Tags on ミルミント</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 17 Aug 2020 03:00:32 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2020 03:27:22 +0000</lastBuildDate>
     
 	<atom:link href="https://millmint.studio/stories/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>architecture</title>
-      <link>https://millmint.studio/stories/tags/architecture/</link>
-      <pubDate>Mon, 17 Aug 2020 03:00:32 +0000</pubDate>
+      <title>military</title>
+      <link>https://millmint.studio/stories/tags/military/</link>
+      <pubDate>Mon, 24 Aug 2020 03:27:22 +0000</pubDate>
       
-      <guid>https://millmint.studio/stories/tags/architecture/</guid>
+      <guid>https://millmint.studio/stories/tags/military/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nature</title>
       <link>https://millmint.studio/stories/tags/nature/</link>
-      <pubDate>Mon, 17 Aug 2020 03:00:32 +0000</pubDate>
+      <pubDate>Mon, 24 Aug 2020 03:27:22 +0000</pubDate>
       
       <guid>https://millmint.studio/stories/tags/nature/</guid>
       <description></description>
@@ -32,9 +32,18 @@
     <item>
       <title>painting</title>
       <link>https://millmint.studio/stories/tags/painting/</link>
-      <pubDate>Mon, 17 Aug 2020 03:00:32 +0000</pubDate>
+      <pubDate>Mon, 24 Aug 2020 03:27:22 +0000</pubDate>
       
       <guid>https://millmint.studio/stories/tags/painting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>architecture</title>
+      <link>https://millmint.studio/stories/tags/architecture/</link>
+      <pubDate>Mon, 17 Aug 2020 03:00:32 +0000</pubDate>
+      
+      <guid>https://millmint.studio/stories/tags/architecture/</guid>
       <description></description>
     </item>
     
@@ -188,15 +197,6 @@
       <pubDate>Sat, 06 Jun 2020 02:16:52 +0000</pubDate>
       
       <guid>https://millmint.studio/stories/tags/machines/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>military</title>
-      <link>https://millmint.studio/stories/tags/military/</link>
-      <pubDate>Sat, 06 Jun 2020 02:16:52 +0000</pubDate>
-      
-      <guid>https://millmint.studio/stories/tags/military/</guid>
       <description></description>
     </item>
     
